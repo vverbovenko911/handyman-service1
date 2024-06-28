@@ -27,7 +27,7 @@
   'enter_name' => 'Enter :name',
   'account_inactive' => 'Your account is inactive. Please contact system administrator.',
   'not_able_login' => 'You can not login from here only user can login',
-  'already_have_account' => 'Already Have Account? ',
+  'already_have_account' => 'Already Have Account?',
   'contact_number' => 'Contact Number',
   'user_type' => 'User Type',
   'designation' => 'Designation',

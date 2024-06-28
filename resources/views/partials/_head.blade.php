@@ -1,4 +1,4 @@
-<link rel="shortcut icon" class="favicon_preview" href="{{ getSingleMedia(imageSession('get'),'favicon',null) }}" />
+<link rel="shortcut icon" class="site_favicon_preview" href="{{ getSingleMedia(settingSession('get'),'site_favicon',null) }}" />
 <link rel='stylesheet' href="{{ asset('vendor/fullcalendar/core/main.css')}}" />
 <link rel='stylesheet' href="{{ asset('vendor/fullcalendar/daygrid/main.css')}}" />
 <link rel='stylesheet' href="{{ asset('vendor/fullcalendar/timegrid/main.css')}}" />

@@ -1,11 +1,10 @@
  <!-- Backend Bundle JavaScript -->
  <script src="{{ asset('js/backend-bundle.min.js')}}"></script>
+
 <script src="{{ asset('vendor/tinymce/js/tinymce/tinymce.min.js') }}"></script>
 <script src="{{ asset('vendor/tinymce/js/tinymce/jquery.tinymce.min.js') }}"></script>
 <link href="{{ asset('css/dragula.css') }}" rel="stylesheet">
 <script src="{{ asset('js/dragula.min.js') }}"></script>
-
-
 <script>
     // Text Editor code
       if (typeof(tinyMCE) != "undefined") {
@@ -71,12 +70,12 @@
  @yield('bottom_script')
 
  <!-- Flextree Javascript-->
- <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}" defer></script>
- <script src="{{ asset('js/flex-tree.min.js')}}" defer></script>
- <script src="{{ asset('js/tree.js')}}" defer></script>
+ <script src="{{ asset('vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+ <script src="{{ asset('js/flex-tree.min.js')}}"></script>
+ <script src="{{ asset('js/tree.js')}}"></script>
 
  <!-- Table Treeview JavaScript -->
- <!-- <script src="{{ asset('js/table-treeview.js')}}"></script> -->
+ <script src="{{ asset('js/table-treeview.js')}}"></script>
 
  <!-- SweetAlert JavaScript -->
  <script src="{{ asset('js/sweetalert.js')}}"></script>
@@ -99,7 +98,7 @@
  <script src="{{ asset('js/charts/02.js')}}"></script>
 
  <!-- slider JavaScript -->
- <!-- <script src="{{ asset('js/slider.js')}}"></script> -->
+ <script src="{{ asset('js/slider.js')}}"></script>
 
  <!-- Emoji picker -->
  <script src="{{ asset('vendor/emoji-picker-element/index.js')}}" type="module"></script>
@@ -118,5 +117,5 @@
     <script src="{{ asset('vendor/fullcalendar/list/main.js') }}"></script>
     <script src="{{ asset('vendor/fullcalendar/bootstrap/main.js') }}"></script>
  <!-- app JavaScript -->
-   <script src="{{ asset('js/app.js')}}"></script>
+ <script src="{{ asset('js/app.js')}}"></script>
  @include('helper.app_message')

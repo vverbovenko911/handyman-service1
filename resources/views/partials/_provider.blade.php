@@ -26,20 +26,5 @@
         <li class="nav-item {{request()->routeIs('provider.review') ? 'active' : ''}}">
             <a class="nav-link" href="{{ route('provider.review',$providerdata->id) }}">{{__('messages.Reviews')}}</a>
         </li>
-        <li class="nav-item {{request()->routeIs('providerdocument.show') ? 'active' : ''}}">
-            <a class="nav-link" href="{{ route('providerdocument.show',$providerdata->id) }}">{{__('messages.list_form_title',['form' => __('messages.document')])}}</a>
-        </li>
-        <li class="nav-item {{request()->routeIs('providerpayout.show') ? 'active' : ''}}">
-            <a class="nav-link" href="{{ route('providerpayout.show',$providerdata->id) }}">{{__('messages.list_form_title',['form' => __('messages.provider_payout')])}}</a>
-        </li>
-        <li class="nav-item {{request()->routeIs('provideraddress.show') ? 'active' : ''}}">
-            <a class="nav-link" href="{{ route('provideraddress.show',$providerdata->id) }}">{{__('messages.list_form_title',['form' => __('messages.provider_address')])}}</a>
-        </li>
-        <li class="nav-item {{request()->routeIs('bank.list') ? 'active' : ''}}">
-            <a class="nav-link" href="{{ route('bank.list',$providerdata->id) }}">{{__('messages.list_form_title',['form' => __('messages.bank')])}}</a>
-        </li>
-        <li class="nav-item {{request()->routeIs('provider.time-slot') ? 'active' : ''}}">
-            <a class="nav-link" href="{{ route('provider.time-slot',$providerdata->id) }}">{{__('messages.list_form_title',['form' => __('messages.manage_slot')])}}</a>
-        </li>
     </ul>
 </div>
